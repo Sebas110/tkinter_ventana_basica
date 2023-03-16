@@ -11,5 +11,6 @@ ventana.title("ventana")
 text_inicial= Label(ventana,text=("ingrese nombre"),bg="black",fg="white",font="arial 11")
 text_inicial.place(x=50, y=10)
 
-
+entrada_text= Entry(ventana,font="arial 9")
+entrada_text.place(x=40,y= 30)
 ventana.mainloop()
